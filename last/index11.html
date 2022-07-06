@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/last.css">
+    <title> داخل المزرعة</title>
+</head>
+<body>
+<section class="elmazraa">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="assets/img/elmaz.jpeg" alt="">
+                <h3>IB تحصين كولون +ابى ضد مرض </h3>
+            </div>
+        
+            <form action="vacsen.php" class="lmazraa" method="POST">
+                <label for="">ادخل التاريخ</label>
+                <input type="datetime-local" class="local" name="date" required>
+                <h3>العمر</h3>
+                <select name="age_of_vaccines" id="" class="oop" required>
+                    <option value="من عمر يوم الى سبع ايام">من عمر يوم الى سبع ايام</option>  
+                          <option value="من سبع ايام الى اربعة عشر  يوم">من سبع ايام الى اربعة عشر  يوم</option>
+                    <option value="من اربعة عشر يوم الى ثمانية عشر يوم">من اربعة عشر يوم الى ثمانية عشر يوم</option>
+                    <option value="من عمر ثامنية عشر يوم الى اثنى وثلاثون يوم">من عمر ثامنية عشر يوم الى اثنى وثلاثون يوم</option>
+                </select>
+                <h3>نوع التحصين</h3>
+                <select name="type_of_vaccines" id="" class="op" required>
+                    <option value="هتشنر اى بى">هتشنر اى بى</option>
+                    <option value="لاسوتا">لاسوتا</option>
+                    <option value="جمبورو">جمبورو</option>
+                    <option value="نيو كاسيل ميت">نيو كاسيل ميت</option>
+                    <option value="انفلونزا اتش 5">انفلونزا اتش 5</option>
+                    <option value="انفلونزا اتش 9">انفلونزا اتش 9</option>
+                    <option value="كلون 30">كلون 30</option>
+                    <option value="فارتو">فارتو</option>
+                    <option value="اليت">اليت</option>
+                    <option value="دولجيبان">دولجيبان</option>
+                    <option value="افنيو">افنيو</option>
+                    <option value="مارك">مارك</option>
+                    <option value="برسابلكس">برسابلكس</option>
+                    <option value="انفلونزا اتش5 +ان دى">انفلونزا اتش5 +ان دى</option>
+                    <option value="جمبورو شديد">جمبورو شديد</option>
+                </select>
+                <h3>طريقة التحصين</h3>
+                <select name="method_of_vaccines" id="" class="mp" required>
+                    <option value="رش">رش</option>
+                    <option value="تقطير فى العين">تقطير فى العين</option>
+                    <option value="وضع فى ماء الشرب">وضع فى ماء الشرب</option>
+                </select>
+                <h3>شركات التحصين</h3>
+                <select name="company" id="" class="lp" required>
+                    <option value="جو فاك">جو فاك</option>
+                    <option value="ماريال">ماريال</option>
+                    <option value="الدولية">الدولية</option>
+                    <option value="يونايتد بيوميد">يونايتد بيوميد</option>
+                    <option value="هيبر فيت">هيبر فيت</option>
+                    <option value="فالى فاك">فالى فاك</option>
+                    <option value="اجرو ميد">اجرو ميد</option>
+                    <option value="هستر">هستر</option>
+            
+                </select>
+                <h3>ملاحظات</h3>
+                <select name="notes" id="" class="ap" required>
+                    <option value="تحصينات مضادة لنيو كاسيل">تحصينات مضادة لنيو كاسيل</option>
+                    <option value="تحصينات مضادة لجمبورو">تحصينات مضادة لجمبورو</option>
+                    <option value="تصحينات مضادة  ل اى بى">تصحينات مضادة  ل اى بى</option>
+                    <option value="تحصينات مضادة لالتهاب القصبة الهوائية">تحصينات مضادة لالتهاب القصبة الهوائية</option>
+                    <option value="تحصينات مضادة للنيو كاسيل اى بى">تحصينات مضادة للنيو كاسيل اى بى</option>
+                    <option value="تحصينات مضادة اى بى اتش 120">تحصينات مضادة اى بى اتش 120</option>
+                </select>
+                <input type="submit" name="تسجبل" value="حفظ" class="rigester">
+            
+                <form action="vacsen.php" method="post" class="showd">
+                    <h1>عرض جداول البيانات</h1>
+                    <input type="submit" name="show" value="عرض الكل">
+                
+                    <input type="text" name="dell" class="delee">
+                    <input type="submit" name="delete" value="حذف"  >
+                </form>
+            </form>
+    
+            <div class="col-3">
+                <img src="assets/img/elmaz3.jpeg" alt="">
+                <h3>تحصين هشنر ضد مرض نيوكاسل عمر 7 ايام </h3>    
+                    </div>
+            <div class="col-3">
+                <img src="assets/img/elmaz4.jpeg" alt="">
+                <h3>  IB H120 تحصين الالتهاب الرئوى التشعبى </h3>
+            </div>
+            <div class="col-3">
+                <img src="assets/img/elmaz5.jpeg" alt="">
+                <h3> تحصين لاسوتا عمر18 يوم</h3>
+            </div>
+            <div class="col-3">
+                <img src="assets/img/elmaz6.jpeg" alt="">
+                <h3> تحصين جمبور عمر14يوم</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>جميع الحقوق محفوظة</footer>
+</body>
+</html>

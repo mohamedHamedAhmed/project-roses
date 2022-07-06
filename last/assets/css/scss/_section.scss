@@ -1,0 +1,84 @@
+//start elmamal
+.attrbi{
+    margin: 20px;
+    background-color: rgb(224, 189, 196);
+}
+.attrbi img{
+    width: 1000px;
+    height: 500px;
+    margin: 50px 10%;
+}
+.attrbi .attrbi-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.attrbi-text{
+    max-width:1500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.attrbi-text p{
+    font-size: 25px;
+    font-weight: bold;
+}
+//end elmaml
+
+.nafa2{
+display: flex;
+justify-content: space-between;
+text-align: center;
+margin: 50px;
+}
+.nafa2 img{
+    width: 550px;
+    height: 500px;
+}
+.nafa2 .img h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+
+    text-align: center;
+    color: rgb(30, 12, 192);
+}
+.nafa2 .nafa2-text p{
+    max-width: 500px;
+    margin-left: 20%;
+    margin: 15px;
+    line-height: 25px;
+}
+
+.nafa2 .textt span{
+    display: block;
+   text-align: right;
+   margin: 10px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(108, 126, 228, 0.582);
+}
+
+@media(max-width:767px){
+    .nafa2 img{
+       margin-left: -2.3rem;
+       width: 28rem;
+       height: 20rem;
+    }
+   
+
+}
+@media(max-width:992px) {
+    .nafa2 .img img{
+        margin-left: 5rem;
+    }  
+    .nafa .text-nafa p {
+width: 42rem;
+margin: 49px;
+    }
+    .nafa2 h1{
+        margin-left: 20rem;
+    }
+}

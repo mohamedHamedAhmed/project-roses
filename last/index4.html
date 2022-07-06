@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/last.css">
+    <title>الدورة</title>
+</head>
+<body class="eldaora">
+    
+   
+    
+
+    <form action="sesoin.php" class="eldoagen" dir="rtl" method="POST">
+<label for="">تاريخ بداية الدورة</label>
+<input type="datetime-local" name="course_start">
+<h3>ادخل عدد الكتاكيت</h3>
+<select  id=""name="number_of_chicks" required>
+<option value="5000كتكوت">5000كتكوت</option>
+<option value="10000كتكوت">10000كتكوت</option>
+<option value="15000كتكوت">15000كتكوت</option>
+</select>
+<label for="">العمر</label>
+<select  id="" name="age" required>
+    <option value="40يوم">40يوم</option>
+    <option value="36يوم">36يوم</option>
+    <option value="30يوم">30يوم</option>
+    <option value="32يوم">32يوم</option>
+</select>
+<label for="">استهلاك الماء</label>
+<input type="text" name="water_consumption" required>
+<h3>درجة الحرارة</h3>
+<select  id="" class="list" name="temperature" required>
+    <option value="من عمر يوم الى7 ايام 34درجة سيليزية">من عمر يوم الى7 ايام 34درجة سيليزية</option>
+    <option value="من عمر8 ايام الى 21 يوم درجه حرارة 29 سيليزية">من عمر8 ايام الى 21 يوم درجه حرارة 29 سيليزية</option>
+    <option value="من عمر 22 يوم الى 38يوم درجة الحرارة 24 درجة سيليزية">من عمر 22 يوم الى 38يوم درجة الحرارة 24 درجة سيليزية</option>
+    <option value="العمر النهائى للبيع 20درجة سيليزية">العمر النهائى للبيع 20درجة سيليزية</option>
+</select>
+<h3>متوسط الوزن</h3>
+<select  id="" name="average_weight" required>
+    <option value="1900kg">1900kg</option>
+    <option value="2000kg">2000kg</option>
+    <option value="2200kg">2200kg</option>
+    <option value="2500kg">2500kg</option>
+</select>
+  <label for="">معامل التحويل</label>
+  <input type="text" name="conversion_factor" required>
+  <input type="submit" value="حفظ" class="rigester">
+    </form>
+    <form action="sesoin.php" method="post" class="showd">
+        <h1>عرض جداول البيانات</h1>
+        <input type="submit" name="show" value="عرض الكل">
+        
+        <input type="text" name="dell" class="delee">
+        <input type="submit" name="delete" value="حذف">
+    </form>
+    <footer>جميع الحقوق محفوظة</footer>
+</body>
+</html>

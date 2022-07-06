@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/last.css">
+    <title>حساب التكلفة</title>
+</head>
+<body>
+    <form action="costcalculation.php" class="mo" dir="rtl" method="POST">
+        <h3>كمية الكتاكيت</h3>
+        <select id="" name="chicken" required>
+        <option value="5000كتكوت">5000كتكوت</option>
+        <option value="10000كتكوت">10000كتكوت</option>
+        <option value="15000كتكوت">15000كتكوت</option>
+        </select>
+        <label for="" class="short">ادخل اجمالى سعر العلف</label>
+        <input type="text" name="feed" required>
+        <label for="">الدواء</label>
+        <input type="text" name="pharmaceutical" required>
+        <label for="">عمالة</label>
+        <input type="text" name="emploies" required>
+        <label for="">نشارة</label>
+        <input type="text" name="sawdust" required>
+        <label for=""> وحقن</label>
+        <input type="text" name="sale_and_injection" required>
+        <label for="">كهرباء</label>
+        
+        <input type="text" name="Electricity" required>
+       
+        <label for="">ايجار</label>
+        <input type="text" name="rent" required>
+        <label for="">مياة</label>
+        <input type="text" name="waters" required>
+        <label for="">صيانة</label>
+        <input type="text" name="maintenance" required>
+        <label for="">تدفئة</label>
+        <input type="text" name="heating" required>
+        <label for="">اجمالى</label>
+        <input type="text" name="total" required>
+        
+        <input type="submit" value="حفظ" class="rigester" name="rigester">
+            </form>
+
+            <form action="costcalculation.php" method="post" class="showd">
+                <h1>عرض جداول البيانات</h1>
+                <input type="submit" name="show" value="عرض الكل">
+                
+                <input type="text" name="dell" class="delee">
+                <input type="submit" name="delete" value="حذف">
+            </form>
+            <footer>جميع الحقوق محفوظة</footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/last.css">
+    <title>البيع</title>
+</head>
+<body>
+    <header class="header">
+        <h1>البيانات المتعلقة بعمليات البيع الدواجن بسعر البورصة</h1>
+        <img src="assets/img/porsa.png" alt="" class="porsa">
+        <form action="price.php" class="price" method="POST">
+            <label for="">تاريخ البيع</label>
+            <input type="datetime-local" class="data" name="date required">
+            <br>
+            <label for="">ادخل عدد الدواجن بعد الصافى </label>
+            <input type="text" placeholder="عدد الدواجن" name="number_of_poultry" required>
+            <br>
+            <h3> ادخل متوسط الوزن</h3>
+            <select  id="" name="average_weight" required>
+                <option value="1900 kg">1900 kg</option>
+                <option value="2000 kg">2000 kg</option>
+                <option value="2200 kg">2200 kg</option>
+                <option value="2500 kg">2500 kg</option>
+                <option value="2700 kg">2700 kg</option>
+            </select>
+            <label for="">ادخل سعر البورصة</label>
+    <input type="text" placeholder="سعر البورصة" name="stock_price" required>
+    <input type="submit" value="حفظ" class="gester">
+        </form>
+
+        <form action="price.php" method="post" class="showd">
+            <h1>عرض جداول البيانات</h1>
+            <input type="submit" name="show" value="عرض الكل">
+           
+            <input type="text" name="dell" class="delee">
+            <input type="submit" name="delete" value="حذف">
+        </form>
+        <div class="link">
+            <a href="https://chickspoultry.com">لينك البورصة</a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="img">
+                    <img src="assets/img/frakh12.jpeg" alt="">
+                </div>
+                <div class="img">
+                    <img src="assets/img/frakh13.jpeg" alt="">
+                </div>
+                <div class="img">
+                    <img src="assets/img/frakh14.jpeg" alt="">
+                </div>
+               <div class="img">
+                    <img src="assets/img/frakh11.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+   
+
+    <footer>جميع الحقوق محفوظة</footer>
+</body>
+</html>

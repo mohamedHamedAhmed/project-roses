@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/last.css">
+    <title>استهلاك العلف</title>
+</head>
+<body>
+    
+    <div class="alaf"> 
+<h1>شركة العلف</h1>
+<form action="alaf.php" class="taclfa" method="post">
+    <label for="">ادخل التاريخ</label>
+    <input type="datetime-local" name="date" required>
+    <h3>ادخل اليوم</h3>
+    <select name="todate" id="" class="selectal" required>
+        <option value="السبت">السبت</option>
+        <option value="الاحد">الاحد</option>
+        <option value="الاثنين">الاثنين</option>
+        <option value="الثلاثاء">الثلاثاء</option>
+        <option value="الاربعاء">الاربعاء</option>
+        <option value="الخميس">الخميس</option>
+        <option value="الجمعة">الجمعة</option>
+    </select>
+    <label for="">ادخل اجمالى العلف</label>
+    <input type="text" placeholder="اجمالى" name="total" required>
+    <h3>شركة العلف</h3>
+    <select name="feedcompany" id="" required>
+        <option value="شركة العنانى">شركة العنانى</option>
+        <option value="شركة الطوخى">شركة الطوخى</option>
+        <option value="شركة القائد">شركة القائد</option>
+        <option value="شركة الصلاح">شركة الصلاح</option>
+        <option value="شركة البركة">شركة البركة</option>
+    </select>
+    <h3>نوع العلف</h3>
+    <select name="notes" id="" class="selectal" required>
+        <option value="بادى نامى تسمين"> بادى نامى تسمين</option>
+        <option value="نامى21">نامى21</option>
+        <option value="ناهى 19">ناهى 19</option>
+    
+    </select>
+    <input type="submit" value="حفظ" class="rigester">
+</form>
+<form action="alaf.php" method="post" class="showd">
+    <h1>عرض جداول البيانات</h1>
+    <input type="submit" name="show" value="عرض الكل">
+    <hr>
+    <input type="text" name="dell" class="delee">
+    <input type="submit" name="delete" value="حذف">
+</form>
+        <img src="assets/img/alaf.jpeg" alt="" class="alaff">
+    </div>
+
+</body>
+</html>

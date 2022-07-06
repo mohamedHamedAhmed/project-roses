@@ -1,0 +1,828 @@
+//start elmazraa
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(207, 211, 218, 0.342);
+}
+.elmazraa{
+
+background-color: rgb(194, 201, 233);
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.container .col-3 img{
+    width: 400px;
+    height: 400px;
+    border: 5px dotted rgb(115, 182, 226);
+
+}
+.elmazraa .container .col-3 {
+    margin-bottom: 20px;
+}
+
+.container .col-3 h3{
+    color: rgb(12, 4, 36);
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+form{
+    display: block;
+    max-width: 300px;
+    margin-top: 15px;
+    margin:10px auto;
+    background-color: rgb(84, 181, 211);
+    border:  2px solid #ddd;
+    border-radius: 15%;
+}
+form label{
+    margin-left: -10rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+form .local{
+  margin-left: -1.9rem;
+    
+  background-color: rgb(194, 201, 233);
+}
+form .data{
+   padding: 10px  72px; 
+   background-color: rgb(194, 201, 233);
+}
+.lmazraa label{
+    margin-left: 1rem;
+    color: rgb(255, 255, 255);
+}
+.lmazraa select{
+   padding: 10px 30px; 
+margin-left: -2rem;
+   background-color: rgb(194, 201, 233);
+}
+form h3{
+    margin-left: 100px;
+    color: white;
+}
+
+form .gester{
+    margin-left: 110px;
+    border: 2px solid rgb(85, 73, 73);
+}
+.lmazraa h3{
+    margin-left:20px;
+}
+.lmazraa{
+    padding: 40px 50px;
+}
+.lmazraa .oop{
+    padding: 10px 65px;  
+}
+.lmazraa .op{
+    padding: 10px 115px; 
+}
+.lmazraa  .lp{
+    padding: 10px 135px; 
+}
+.lmazraa  .ap{
+    padding: 10px 75px; 
+    margin-bottom: 20px;
+}
+.lmazraa  .mp{
+    padding: 10px 120px; 
+   
+}
+.lmazraa .rigester{
+    margin-left: 1px;
+    background-color: blue;
+  border-radius: 25px;
+  font-size: 25px;
+}
+.lmazraa .rigester:hover{
+  
+    background-color: rgb(46, 46, 170);
+  
+}
+//end elmazraa
+
+///mamal
+.head{
+    margin: 10px;
+}
+.head .img img{
+    width: 320px;
+    height: 300px;
+}
+.head .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}   
+.attrbi img{
+    text-align: center;
+}
+//end mamal
+//start nafa
+.nafa{
+    margin: 0;
+    padding: 0;
+
+}
+.nafa .nafal h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(19, 25, 27);
+    margin-bottom: 15px;
+}
+.nafa .nafal img{
+  display: flex;
+  justify-content: center;
+  margin-left: 22%;
+  margin-bottom: 15px;
+}
+.nafa .text-nafa p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.nafa2 {
+    flex-wrap: wrap;
+}
+.elnafa{
+    padding: 60px;
+}
+.elnafa input{
+    width: 120px;
+    margin-left: 50rem;
+    border: 1px solid #ddd;
+}
+.elnafa h3{
+    color: white;
+}
+.elnafa label{
+    font-weight: bold;
+    margin-bottom: 90px;
+color: white;
+}
+.elnafa .labeltext{
+    font-size: 20px;
+}
+.elnafa .na{
+    margin-left: 10px;
+}
+.elnafa select{
+    width: 17.5rem;
+    border: 1px solid #ddd;
+}
+form .gester{
+    margin-right: 55px;
+    margin-top: 15px;
+    background-color: rgb(170, 197, 233);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+   border: none;
+    border-radius: 25px;
+}
+.elnafa select option{
+margin-left: 90%;
+}
+form .gester:hover{
+    background-color: rgb(132, 144, 245);
+}
+//end nafa
+
+
+//start water
+
+.water{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(87, 46, 52);
+}
+.water-img img{
+    width: 600px;
+    height: 600px;
+}
+.water .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+//end water
+
+
+//start harara
+.harara{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(186, 189, 223);
+
+}
+.harara{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.harara img{
+    width: 30rem;
+    height: 25rem;
+    margin: 20px;
+}
+.harara-text {
+    margin: 50px;
+}
+.harara-text p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+//start  price
+.header .porsa{
+    width: 82rem;
+    height:40rem;
+}
+.header img{
+width: 500px;
+height: 500px;
+margin: 15px;
+} 
+.header .row{
+    margin: 100px;
+}
+ .header h1{
+    margin-left: 28%;
+    font-weight: bold;
+    font-size: 35px;
+max-width: 50%;
+
+ }
+
+ .link{
+background-color: #ddd;
+width: 27%;
+height:35px;
+margin: 50px;
+border-radius: 25px;
+margin-left: 30rem;
+border: 10px solid rgb(33, 5, 109);
+ }
+ .link a{
+     margin-left: 30%;
+     text-decoration: none;
+     font-size: 30px;
+     font-weight: bold;
+ }
+ .price {
+     padding: 50px;
+ }
+ form label{
+     margin-left: 30%;
+ }
+ form input{
+     padding: 10px  80px;
+     margin-left: -1rem;
+     background-color: rgb(194, 201, 233);
+     border: 1px solid #ddd;
+ }
+ form .data{
+    padding: 10px  72px; 
+    background-color: rgb(194, 201, 233);
+ }
+ form select{
+    padding: 10px 130px; 
+    margin-left: -1rem;
+    background-color: rgb(194, 201, 233);
+    border: 1px solid #ddd;
+ }
+ form h3{
+     margin-left: 100px;
+ }
+
+ form .gester{
+    margin-left: 3.5rem;
+     border: 2px solid rgb(85, 73, 73);
+ }
+
+
+.hide .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ //end price
+ 
+//start esthlak elalafe
+
+.alaf .alaff{
+    width: 100%;
+    height: 50%;
+    
+}
+.alaf h1{
+    margin:auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+.taclfa{
+    padding: 5rem;
+}
+.taclfa .selectal{
+    width: 21.5rem;
+    margin-bottom: 10px;
+}
+.taclfa select option{
+    font-size: 25px;
+}
+.taclfa input{
+    width: 11.5rem;
+}
+.taclfa .rigester{
+    margin-left: 4rem;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.taclfa .rigester:hover{
+    background-color: rgb(46, 46, 175);
+}
+//start eltabeb
+.tabeb{
+    margin: 0px;
+    padding: 0;
+
+}
+.tabeb .row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.tabeb p{
+    max-width: 620px;
+    text-align: right;
+    margin: 10px 10px;
+}
+.tabeb img{
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+}
+.tabeb2 .controls{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap; 
+}
+.eltabeb{
+    padding: 30px;
+   
+}
+.eltabeb .text-tabeb{
+width: 100px;
+}
+.eltabeb input{
+    width: 7.9rem;
+}
+.eltabeb h3{
+    max-width: 500px;
+    margin-right: 60px;
+}
+.eltabeb select{
+    width: 18rem;
+    margin-bottom: 10px;
+}
+.eltabeb .dynamic{
+    width: 20rem;
+}
+.eltabeb .check{
+    display: flex;
+    }
+.eltabeb .check label{
+    width: 90rem;
+    margin-right: 12rem;
+    color: white;
+    }
+   .eltabeb .rigester{
+       margin-right: 3.7rem;
+background-color: rgb(110, 110, 253);
+border-radius: 25px;
+font-size: 25px;
+   }
+//end eltabeb 
+
+
+//start elamala
+
+.elamala{
+    margin: 0;
+    padding: 0;
+
+}
+.elamala .row img{
+width: 300px;
+height: 300px;
+}
+.elamala .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.homee img{
+    width: 100%;
+    height: 10%;
+}
+.amala{
+padding: 3.5rem;
+}
+.amala input{
+    margin-right:-1rem ;
+    
+}
+.amala .check label{
+    max-width: 300px;
+    display: flex;
+    margin: .2rem;
+    color: white;
+}
+.amala label{
+    color: white;
+}
+.amala .label-text{
+    margin-right:-18px;
+
+}
+.amala h3{
+    margin-right: 9rem;
+    color: white;
+}
+.amala .rigester{
+    margin: 2rem;
+    background-color: rgb(152, 186, 224);
+    border-radius: 25px;
+    font-size: 25px;
+
+    cursor: pointer;
+}
+.amala .rigester:hover{
+    background-color: rgb(71, 71, 150);
+}
+//end elamala
+.eldaora{
+    background-color: rgb(168, 197, 216);
+   
+}
+.eldoagen {
+ padding: 4rem;
+}
+.eldoagen select{
+    width: 25rem;
+    margin: 5px;
+    border: 1px solid #ddd;
+    width: 12rem;
+}
+.eldoagen select option{
+    font-size: 25px;
+}
+.eldoagen label{
+    margin-right: 10px;
+   color: white;
+}
+.eldoagen input{
+    width: 6.2rem;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+.eldoagen .rigester{
+    margin-right: 3rem;
+    background-color: blueviolet;
+    font-size: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.eldoagen .rigester:hover{
+    background-color: rgb(141, 82, 197);
+}
+.eldoagen h3{
+    margin-right: 140px;
+    margin: 10px;
+}
+
+//end eldaora
+//start taklfa
+
+
+
+
+//start price elmazraa
+
+.mo {
+    padding: 110px;
+    
+}
+.mo select{
+    width: 20.7rem;
+    font-size: 25px;
+}
+.mo label{
+    color: white;
+}
+.mo select option{
+    font-size: 15px;
+}
+.mo .rigester{
+
+    margin:35px;
+    background-color: blue;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.mo .rigester:hover{
+    background-color: rgb(74, 74, 211);
+}
+
+
+//end  price elmazraa
+
+
+//start adoua
+.adoual {
+    padding: 4rem;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.adoual h3{
+    margin-left: -0.1rem;
+    color: white;
+}
+.adoual label{
+    margin-left: -0.0rem;  
+    color: white;
+}
+.adoual select{
+    width: 20.5rem;
+    margin-bottom: 1px;
+  
+}
+
+.adoual select option{
+    font-size: 25px;
+}
+.adoual .rigester{
+    margin-left: 0.5rem;
+    background-color: blue;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.adoual .rigester:hover{
+    background-color: rgb(59, 59, 199);
+}
+.showd h1{
+    margin-bottom: 20px;
+    margin-left: 12%;
+}
+.showd .delee{
+    width: 1px;
+}
+
+.showd input{
+width: 50px;
+margin-left: 22%;
+margin-bottom: 10px;
+}
+@media(max-width:767px){
+    .container .row{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .eldoagen {
+        padding: 4rem;
+        width: 17rem;
+        margin-left: -20px;
+        
+    }
+    .eldoagen label{
+        margin-left: 5rem;
+       
+    }
+    .eldoagen select{
+        width: 12rem;
+        margin: 10px;
+        border: 1px solid #ddd;
+    }
+    .eldoagen input{
+        width: 6.2rem;
+        margin-left: 15rem;
+        margin: 10px;
+        border: 1px solid #ddd;
+    }
+    .eldoagen .rigester{
+       margin-right:3.5rem;
+        
+    }
+   .nafa .nafal .img-naf{
+       
+      width: 25rem;
+      height: 20rem;
+      margin-left: 2.2rem;
+      
+      }
+      .nafa .text-nafa p{
+        font-weight: bold;
+        font-size: 25px;
+        max-width: 24rem;
+       
+    }
+    .nafa2 .img  img{
+        width: 19rem;
+        height: 20rem;
+       
+    }
+        
+    
+      .water-img img{
+        width: 470px;
+        height: 400px;
+        margin: 6px;
+    }
+    .header h1{
+text-align: center;
+     }
+     .header img{
+        width: 28rem;
+        height: 20rem;
+
+       margin-bottom: -35px;
+        }
+        .header .porsa{
+            width: 27rem;
+            height:25rem;
+            margin-left: 1.7rem;
+            margin-bottom: -20px;
+        }
+        .container .row .img img{
+            margin-bottom: 20px;
+        }
+        .price{
+            margin-top: 50px;
+        }
+        .link{
+            
+            width: 70%;
+            height:35px;
+            margin: 60px;
+            border-radius: 25px;
+        
+             }
+             .link a{
+                 margin-left:33%;
+                
+                 font-size: 30px;
+             }
+             .harara img{
+                width: 27rem;
+                height: 25rem;
+                margin: 20px;
+            }
+            .tabeb img{
+                width: 27rem;
+                height: 20rem;
+                margin: 10px;
+            }
+            .eltabeb{
+                padding:40px;
+               
+            }
+            .eltabeb .text-tabeb{
+                width: 20rem;
+                margin-right: 8rem;
+            }
+            .eltabeb h3{
+                max-width: 500px;
+                margin-right: 60px;
+            }
+            .eltabeb select{
+                width: 18b rem;
+            }
+            .eltabeb option{
+                font-size: 25px;
+            }
+            .mo select{
+                width: 35px;
+               
+                margin-left:10rem;
+            }
+            
+            .mo label{
+              margin-top: 100rem;
+            }
+            .mo input{
+                
+                margin-left:10rem;
+            }
+            .head .container{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+              
+            }
+            .attrbi .mamall{
+                width:20rem;
+                height: 290px;
+                margin-left: 3.7rem;
+            }
+            .attrbi-text p{
+              margin-left: 2.2rem;
+            width: 100%;
+            }
+         
+            .lmazraa{
+                padding: 70px 60px;
+            }
+            .lmazraa select{
+                padding: 12px 65px; 
+             margin-left: -1.7rem;
+                background-color: rgb(183, 191, 228);
+             }
+             //price
+             form input{
+                padding: 10px  80px;
+                margin-left: -4.3%;
+                background-color: rgb(194, 201, 233);
+            }
+            form h3{
+                margin-left: 60px;
+            }
+            .lmazraa h3{
+                margin-left: 5px;
+            }
+            .lmazraa .rigester{
+                margin-left: -10px;
+                
+              
+            }
+            .lmazraa label{
+                margin-left: -10px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .eldoagen {
+    
+               margin-left: 2.5rem;
+                   
+               }
+               .mo {
+                padding: 50px;
+                
+            }
+            .hide .container {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+}
+@media (max-width:992px) {
+    //start nafa
+    .nafa .nafal img{
+        width: 42rem;
+        height: 20rem;
+        margin-left: 3.3rem;
+        
+          
+        }
+        //start mamal
+        .attrbi .mamall{
+            width:10rem;
+           
+        }
+        .nafa2 {
+margin-left: 90rem;
+        }
+            
+   
+       
+}
+@media (max-width:1200px) {
+    .nafa2 {
+        margin-left: 90rem;
+                }
+}

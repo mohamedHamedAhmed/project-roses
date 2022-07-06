@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(186, 169, 194);
+}
+img{
+    width:84.1rem;
+    height: 40rem;
+}
+.tacmen h1{
+    text-align: center;
+    margin: 10px;
+}
+.tacmen p{
+    width: 80rem;
+    font-weight: bold;
+}
+.tacmen2 .container{
+    text-align: center;
+    margin: 20px 110px;
+}
+.tacmen2 img{
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+}
+.tacmen2 p{
+    font-weight: bold;
+
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(108, 126, 228, 0.582);
+}
+
+@media(max-width:767px){
+    img{
+        width:28rem;
+        height: 15rem;
+        text-align: center;
+        margin-left: 18px;
+    } 
+    .tacmen p{
+        width: 29rem;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .tacmen2 img{
+        width: 25rem;
+        height: 20rem;
+        text-align: center;
+        margin-left: -12rem;
+       
+    }
+    .tacmen2 p{
+        margin-left: -5rem;
+       width: 26rem;
+    
+    }
+    .tacmen2 h1{
+        margin-left: -13rem;
+    } 
+}

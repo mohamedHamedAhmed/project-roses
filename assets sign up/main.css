@@ -1,0 +1,66 @@
+body {
+  background-color: #5c5454; }
+
+.event form {
+  margin: 10rem;
+  margin-left: 30%;
+  align-items: center;
+  display: block; }
+
+form {
+  background-color: #140d0d;
+  border-radius: 5%;
+  width: 600px;
+  height: 350px;
+  margin: 25px auto; }
+
+form h1 {
+  text-align: center;
+  color: azure; }
+
+.event form input {
+  display: block;
+  align-items: center;
+  padding: 6px 8rem;
+  margin: 30px auto; }
+
+.event form .button {
+  text-align: center;
+  padding: 10px 5rem;
+  margin-left: 12rem;
+  background-color: chartreuse;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 2px solid #ddd; }
+
+.event form .button:hover {
+  background-color: burlywood; }
+
+@media (max-width: 767px) {
+  .event form {
+    margin-left: 9%;
+    align-items: center;
+    display: block; }
+
+  form {
+    background-color: #140d0d;
+    border-radius: 5%;
+    width: 350px;
+    height: 300px;
+    margin: 25px auto; }
+
+  .event form input {
+    display: block;
+    align-items: center;
+    padding: 6px 4rem; }
+
+  .event form .button {
+    text-align: center;
+    padding: 10px 5rem;
+    margin-left: 4.5rem;
+    background-color: chartreuse; } }
+@media (max-width: 992px) {
+  .event form {
+    margin-left: 18%; } }
+
+/*# sourceMappingURL=main.css.map */

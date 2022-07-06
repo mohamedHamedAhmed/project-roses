@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/last.css">
+    <title>الادويه</title>
+</head>
+<body>
+    <section class="adoua">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="assets/img/adoua.jpeg" alt="">
+                    <h3>جرعة استقبال مكونة من املاح معدنية وفيتامين اد53 ومضاد حيوى مضاد للسامونيلا بمعدل 1س من كل لتر على الماء لمدة 12ساعه متواصل لمدة 36ساعه</h3>
+                </div>
+                <form action="adoua.php" class="adoual" method="POST">
+                    <label for="">ادخل اليوم</label>
+                        <input type="text" placeholder="ادخل اليوم" name="to_day" required>
+                        <h3>ادخل الصنف</h3>
+                        <select name="item" id="" required>
+                            <option value="كلو ستين">كلو ستين</option>
+                            <option value="فتامين اد">فتامين اد</option>
+                            <option value="فتامين ه سلينيوم">فتامين ه سلينيوم</option>
+                            <option value="مجنافوس">مجنافوس</option>
+                            <option value="سلمانيكس">سلمانيكس</option>
+                            <option value="ابرا كلين">ابرا كلين</option>
+                            <option value="دى تيلو">دى تيلو</option>
+                            <option value="فول ميكس">فول ميكس</option>
+                            <option value="اتكوبيت">اتكوبيت </option>
+                            <option value="فركون اس">فركون اس</option>
+                            <option value="دفور بلاس">دفور بلاس</option>
+                            <option value="امينو فيتا">امينو فيتا</option>
+                        </select>
+                        <h3>ادخل الكمية</h3>
+                      <select name="quantity" id="" required>
+                <option value="لتر">لتر</option>
+                <option value="كيلو">كيلو</option>
+                <option value="نص كيلو">نص كيلو</option>
+                <option value="ربع كيلو">ربع كيلو</option>
+                <option value="100جرام">100جرام</option>
+                      </select>
+                <label for="">ادخل السعر</label>
+                <input type="text" name="price" required>
+                <h3>ملاحظات</h3>
+                <select name="notes" id="" required>
+                    <option value="ادويه استقيال">ادويه استقيال</option>
+                    <option value="فتامينات">فتامينات</option>
+                    <option value="مضادات حيوية">مضادات حيوية</option>
+                    <option value="مضادات سى ار دى">مضادات سى ار دى </option>
+                    <option value="روافع مناعه">روافع مناعه</option>
+                    <option value="مضادات فيروسات">مضادات فيروسات</option>
+                    <option value="ادوية تحويل">ادوية تحويل</option>
+                    <option value="مضادات ميكو بلازما">مضادات ميكو بلازما</option>
+                    <option value="مضادات سموم فطرية">مضادات سموم فطرية</option>
+                </select>
+                <input type="submit" name="تسجبل" value="حفظ" class="rigester">
+                </form>
+                <form action="adoua.php" method="post" class="showd">
+                    <h1>عرض جداول البيانات</h1>
+                    <input type="submit" name="show" value="عرض الكل">
+                    
+                    <input type="text" name="dell" class="delee">
+                    <input type="submit" name="delete" value="حذف">
+                    </form>
+                
+                <div class="col-3">
+                    <img src="assets/img/adoua2.jpeg" alt="">
+                    <h3> لجرعة مضاد حيوى للكوكسديا والاسهالات المعوية
+                             بمعدل 1جم على لتر ماء لمدة 36ساعة</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua3.jpeg" alt="">
+                    <h3>نيو كوكس مضاد حيوى كوكسديا يضاف كل 10 ايام داخل الدورة بمعدل 1 جرام على لتر ماء</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua4.jpeg" alt="">
+                    <h3>اتكوبيت هى تركيبة من البنجر يساعد على زيادة الوزن ويضاف بمعدل 1سم على لتر ماء </h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua5.jpeg" alt="">
+                    <h3>جرعة لزيادة معدلات التحويل الغذائى
+                    عند الدواجن معدل الجرعة 1سم على التر ماء لمدة 36ساعة لزيادة التمثيل الغذائى</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua6.jpeg" alt="">
+                 <h3>بريمو بيوتك+ريدى بكت +افلو تيك هى مجموعة متجانسة من مضادات الحيوية المضادة لميكوبلازما وcrd+ايكولاى+سلمونلا</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua7.jpeg" alt="">
+                 <h3>دى تايلو مضاد حيوى تنفسى يحتوى على تيلوزين تترات+دوكسى سيكلين هيكلات بمعدل ربع جرام على لتر ماء</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua8.jpeg" alt="">
+                 <h3>ابره كولين مضاد حيوى واسع المجال مضاد قوى crdيضاف داخل حقنة المزرعة</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua9.jpeg" alt="">
+                 <h3>سنر 2 مضاد سموم فطرية يوضع عند تغير العلف عند عمر21يوم بمعدل نص سم على لتر ماء ويضاف كل 10 ايام جرعة</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua10.jpeg" alt="">
+                 <h3>فركن اس يضاف بمعدل 1جرام على التر ماء يرش على النشارة والدواجن داخل العنبر</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua11.jpeg" alt="">
+                    <h3>d4 بلص يضاف بمعدل 1سم على التر داخل العنبر</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua13.jpeg" alt="">
+                 <h3>سلمانكس رفع مناعة يضاف بمعدل 1سم على لتر ماء </h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua14.jpg" alt="">
+                 <h3>d4 بلص يضاف بمعدل 1سم على التر داخل العنبر</h3>
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/adoua15.jpeg" alt="">
+                    <h3>فتامين ا د يضاف  بمعدل 1سم علي 1لتر ماء لمدة 3 ايام</h3>
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>جميع الحقوق محفوظة</footer>
+</body>
+</html>
