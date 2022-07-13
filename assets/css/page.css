@@ -237,14 +237,18 @@ form .sign a {
   object-fit: cover; }
 
 @media (max-width: 767px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat; }
+
   .header .main-nav .main-ul {
     position: fixed;
     z-index: 2;
-    top: 95px;
+    top: 120px;
     background-color: #cabfbf;
     width: 50%;
-    right: -400px;
-    transition: right  2s;
+    right: -500px;
+    transition: right  1s;
     overflow: hidden; }
 
   .header .main-nav .main-ul li {
@@ -257,7 +261,8 @@ form .sign a {
     color: aliceblue;
     font-size: 25px;
     font-weight: bold;
-    text-align: right; }
+    text-align: right;
+    padding: 10px; }
 
   .main-nav .main-ul li:hover .movingto {
     margin-left: -13rem;
@@ -276,8 +281,8 @@ form .sign a {
   #yyT {
     position: absolute;
     margin: 15rem;
-    margin-left: 20%;
-    padding: 20px 40px;
+    margin-left: 12%;
+    padding: 20px 20px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 25px;
@@ -289,19 +294,17 @@ form .sign a {
     align-items: center; }
 
   form {
-    width: 400px;
-    height: 370px; }
+    width: 300px;
+    height: 365px; }
 
   .overlay form {
-    margin: 10rem;
-    margin-left: 8%;
-    align-items: center;
-    display: block; }
+    margin-left: 5rem;
+    align-items: center; }
 
   .overlay form input {
     display: block;
     align-items: center;
-    padding: 6px 6rem;
+    padding: 6px 3rem;
     margin: 15px auto; }
 
   form .sign h4 {
@@ -316,7 +319,7 @@ form .sign a {
 
   .overlay form .button {
     margin-top: 40px;
-    margin-left: 6rem; } }
+    margin-left: 3rem; } }
 .col-3 {
   flex-basis: 100%;
   padding: 10px;
@@ -451,11 +454,49 @@ body {
 @keyframes spin {
   100% {
     transform: rotate(360deg); } }
-@media (max-width: 992px) {
-  .offer video {
-    width: 600px;
-    height: 600px; }
+@media (max-width: 767px) {
+  .heading {
+    font-size: 1.5rem; }
 
+  .heading span {
+    font-size: 1.5rem; }
+
+  .section1 {
+    margin-top: 54rem;
+    text-align: center;
+    margin-left: 5rem; }
+
+  .section1 .col-3 img {
+    width: 300px;
+    height: 300px; }
+
+  .features .box img {
+    width: 10rem;
+    height: 10rem; }
+
+  .offer video {
+    width: 410px;
+    height: 400px; }
+
+  .last {
+    margin-top: 1%; }
+
+  .last .container .row h1 {
+    width: 300px;
+    margin-top: 35rem;
+    text-align: center; }
+
+  .last .container .col-2 p {
+    width: 400px;
+    margin-left: -300px;
+    text-align: right; }
+
+  .last img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 70px;
+    margin-left: 70px; } }
+@media (max-width: 992px) {
   .features .box img {
     width: 15rem;
     height: 15rem;
@@ -464,74 +505,15 @@ body {
   .features .box p {
     width: 15rem; }
 
-  .section1 .col-3 img {
-    width: 200px;
-    height: 200px; }
-
-  .section1 {
-    margin-top: 30rem;
-    margin-left: -50px; }
-
-  .col-3 {
-    flex-basis: 100%;
-    padding: 1px;
-    margin-top: -200px;
-    max-width: 100px; }
-
-  .last img {
-    width: 300px;
-    height: 300px;
-    margin-top: 250px; }
+  .offer video {
+    width: 410px;
+    height: 400px; }
 
   .last .container .col-2 h1 {
     width: 300px; }
 
   .last .container .col-2 p {
     width: 300px; } }
-@media (max-width: 767px) {
-  .section1 .container {
-    margin-top: 65rem;
-    margin-bottom: 2px; }
-
-  .section1 .col-3 img {
-    width: 350px;
-    height: 350px;
-    margin-left: 4rem;
-    margin-bottom: 7rem; }
-
-  .offer video {
-    width: 400px;
-    height: 300px; }
-
-  .features .box img {
-    width: 10rem;
-    height: 10rem; }
-
-  .col-3 {
-    flex-basis: 100%;
-    padding: 5px;
-    margin-top: 20px;
-    max-width: 300px;
-    margin-left: 50px; }
-
-  .section1 .col-3 img {
-    width: 360px;
-    height: 360px; }
-
-  .last .container .row h1 {
-    width: 300px;
-    margin-top: 35rem;
-    text-align: center;
-    margin-left: -200px; }
-
-  .last .container .col-2 p {
-    width: 400px;
-    margin-left: -300px; }
-
-  .last img {
-    width: 400px;
-    height: 300px;
-    margin-top: -200px; } }
 @media (max-width: 1200px) {
   .features .box img {
     width: 12rem;
@@ -539,10 +521,7 @@ body {
     align-items: center; }
 
   .features .box p {
-    width: 15rem; }
-
-  .section1 .container img {
-    margin-top: -150px; } }
+    width: 15rem; } }
 .footer {
   margin-top: 7rem;
   background-color: #fdf8f2;
@@ -558,14 +537,20 @@ body {
 .footer .box h3 {
   font-size: 2rem;
   font-weight: bold;
-  color: #130f40; }
+  color: #130f40;
+  margin-left: -100px; }
 
 .footer .box {
   margin: 4rem; }
 
 .footer .box p {
   color: #666;
-  font-size: 1rem; }
+  font-size: 20px;
+  margin: 20px;
+  text-align: right; }
+
+.footer .box .share {
+  margin-left: 50px; }
 
 .footer .box .share a {
   width: 100px;

@@ -45,19 +45,19 @@ form h1 {
   form {
     background-color: #140d0d;
     border-radius: 5%;
-    width: 350px;
+    width: 300px;
     height: 300px;
-    margin: 25px auto; }
+    margin: 5px auto; }
 
   .event form input {
     display: block;
     align-items: center;
-    padding: 6px 4rem; }
+    padding: 6px 2rem; }
 
   .event form .button {
     text-align: center;
-    padding: 10px 5rem;
-    margin-left: 4.5rem;
+    padding: 7px 5rem;
+    margin-left: 3rem;
     background-color: chartreuse; } }
 @media (max-width: 992px) {
   .event form {

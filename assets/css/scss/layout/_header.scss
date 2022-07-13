@@ -260,15 +260,20 @@ form .sign a{
     
   }
   @media (max-width: 767px) {
-
+    body{
+      
+     background-size:cover;
+        background-repeat: no-repeat;
+        
+    }
     .header .main-nav .main-ul{
         position: fixed;
         z-index: 2;
-        top: 95px;
+        top: 120px;
         background-color: rgb(202, 191, 191);
         width: 50%;
-        right: -400px;
-        transition: right  2s;
+        right: -500px;
+        transition: right  1s;
         overflow: hidden;
     }
     .header .main-nav .main-ul li{
@@ -284,6 +289,7 @@ form .sign a{
         font-size: 25px;
         font-weight: bold;
     text-align: right;
+    padding: 10px;
     }
     .main-nav .main-ul li:hover .movingto{
         margin-left: -13rem;
@@ -303,8 +309,8 @@ right: 50%;
     #yyT{
         position: absolute;
         margin: 15rem;
-        margin-left: 20%;
-        padding: 20px 40px;
+        margin-left: 12%;
+        padding: 20px 20px;
         font-size: 18px;
         font-weight: bold;
         border-radius: 25px;
@@ -317,21 +323,21 @@ right: 50%;
            
 }
 form{
-  width: 400px;
-  height: 370px;
+  width: 300px;
+  height: 365px;
  
 }
 .overlay form{
-    margin: 10rem;
-    margin-left:8%;
+   
+    margin-left: 5rem;
     align-items: center;
-    display: block;
+  
 
 }
 .overlay form input{
     display: block;
     align-items: center;
-    padding: 6px 6rem;
+    padding: 6px 3rem;
     margin: 15px auto;
 }
 form .sign h4{
@@ -346,7 +352,7 @@ form .sign a{
 }
 .overlay form .button{
    margin-top: 40px;
-    margin-left: 6rem;
+    margin-left: 3rem;
   
 }
 }

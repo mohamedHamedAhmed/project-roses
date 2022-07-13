@@ -12,7 +12,7 @@
     <div class="alaf"> 
 <h1>شركة العلف</h1>
 <form action="alaf.php" class="taclfa" method="post">
-    <label for="">ادخل التاريخ</label>
+    <label for="">  ادخل التاريخ اليوم</label>
     <input type="datetime-local" name="date" required>
     <h3>ادخل اليوم</h3>
     <select name="todate" id="" class="selectal" required>
@@ -27,7 +27,7 @@
     <label for="">ادخل اجمالى العلف</label>
     <input type="text" placeholder="اجمالى" name="total" required>
     <h3>شركة العلف</h3>
-    <select name="feedcompany" id="" required>
+    <select name="feedcompany" id="" class="company" required>
         <option value="شركة العنانى">شركة العنانى</option>
         <option value="شركة الطوخى">شركة الطوخى</option>
         <option value="شركة القائد">شركة القائد</option>
@@ -42,13 +42,6 @@
     
     </select>
     <input type="submit" value="حفظ" class="rigester">
-</form>
-<form action="alaf.php" method="post" class="showd">
-    <h1>عرض جداول البيانات</h1>
-    <input type="submit" name="show" value="عرض الكل">
-    <hr>
-    <input type="text" name="dell" class="delee">
-    <input type="submit" name="delete" value="حذف">
 </form>
         <img src="assets/img/alaf.jpeg" alt="" class="alaff">
     </div>

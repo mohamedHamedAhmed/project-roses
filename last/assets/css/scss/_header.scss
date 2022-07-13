@@ -145,7 +145,7 @@ form .gester{
 .nafa .nafal img{
   display: flex;
   justify-content: center;
-  margin-left: 22%;
+  margin-left: 17%;
   margin-bottom: 15px;
 }
 .nafa .text-nafa p{
@@ -153,7 +153,17 @@ form .gester{
     font-size: 25px;
 }
 .nafa2 {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+.nafa2 .img img{
+width: 350px;
+height: 350px;
+}
+.nafa2 p{
+    width: 20rem;
+    text-align: right;
 }
 .elnafa{
     padding: 60px;
@@ -607,6 +617,43 @@ margin-left: 22%;
 margin-bottom: 10px;
 }
 @media(max-width:767px){
+    form{
+        max-width: 250px;
+    }
+    form h3{
+       margin-left: 40px;
+      
+     }
+    .lmazraa .local{
+        padding: 10px 62px; 
+    }
+    .lmazraa .oop{
+        padding: 10px 44px;  
+    }
+    .lmazraa .op{
+        padding: 10px 94px; 
+    }
+    .lmazraa  .lp{
+        padding: 10px 113px; 
+    }
+    .lmazraa  .ap{
+        padding: 10px 54px; 
+        margin-bottom: 20px;
+    }
+    .lmazraa  .mp{
+        padding: 10px 98px; 
+       
+    }
+    .container .col-3 img{
+        width: 320px;
+        height: 320px;
+   
+    
+    }
+    .lmazraa .rigester{
+        margin-left: 20px;
+       
+    }
     .container .row{
         display: flex;
         justify-content: center;
@@ -614,9 +661,9 @@ margin-bottom: 10px;
         flex-wrap: wrap;
     }
     .eldoagen {
-        padding: 4rem;
+        padding: 2rem;
         width: 17rem;
-        margin-left: -20px;
+        margin-left: 10px;
         
     }
     .eldoagen label{
@@ -624,88 +671,150 @@ margin-bottom: 10px;
        
     }
     .eldoagen select{
-        width: 12rem;
+        width: 14.2rem;
         margin: 10px;
         border: 1px solid #ddd;
     }
     .eldoagen input{
-        width: 6.2rem;
-        margin-left: 15rem;
+        width: 4rem;
+        margin-left: 20rem;
         margin: 10px;
         border: 1px solid #ddd;
     }
     .eldoagen .rigester{
-       margin-right:3.5rem;
+       margin-right:2rem;
         
     }
    .nafa .nafal .img-naf{
        
-      width: 25rem;
-      height: 20rem;
-      margin-left: 2.2rem;
+      width: 22rem;
+      height: 20rem; 
+      margin-left: 5rem;
       
       }
       .nafa .text-nafa p{
         font-weight: bold;
-        font-size: 25px;
-        max-width: 24rem;
-       
-    }
-    .nafa2 .img  img{
-        width: 19rem;
-        height: 20rem;
-       
-    }
+        font-size: 22px;
+        max-width: 18rem;
         
-    
+       
+    }
+
+    .nafa2 .img  img{
+        width: 20rem;
+        height: 20rem;
+ 
+    }
+    .elnafa{
+        padding: 2rem;
+    }
+    .nafa2 .nafa2-text p {
+        max-width: 10px;
+    }
+    .elnafa input{
+        width: 90px;
+        
+       
+    }
+    .elnafa h3{
+        color: white;
+    }
+    .elnafa label{
+        font-weight: bold;
+        margin-bottom: 90px;
+    color: white;
+    }
+    .elnafa .labeltext{
+        font-size: 20px;
+    }
+    .elnafa .na{
+        margin-left: 10px;
+    }
+    .elnafa select{
+        width: 15.7rem;
+        
+    }
+    form .gester{
+        margin-right: 40px;
+    }
+  
       .water-img img{
-        width: 470px;
+        width: 370px;
         height: 400px;
-        margin: 6px;
+        margin: 50px;
     }
     .header h1{
 text-align: center;
+font-size: 20px;
      }
-     .header img{
-        width: 28rem;
-        height: 20rem;
+     .header .porsa{
+        width: 26rem;
+        height:20rem;
+    }
+    .header img{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    } 
+    
+    
+     .link{
+    background-color: #ddd;
+    width: 50%;
+    height:35px;
+    margin: 50px;
+    border-radius: 25px;
+    margin-left: 7rem;
+    border: 10px solid rgb(33, 5, 109);
+     }
+     .link a{
+         margin-left: 20%;
+         text-decoration: none;
+         font-size: 30px;
+         font-weight: bold;
+     }
+     .price {
+         padding: 50px;
+     }
+     form label{
+         margin-left: 20%;
+         text-align: right;
+     }
+     form input{
+         padding: 10px  15px;
+   
+     }
+     form .data{
+        padding: 10px  43px; 
+        background-color: rgb(194, 201, 233);
+     }
+     form .data1{
+        padding: 10px  50px; 
+       
+     }
+     form select{
+        padding: 10px 102px; 
+ 
 
-       margin-bottom: -35px;
-        }
-        .header .porsa{
-            width: 27rem;
-            height:25rem;
-            margin-left: 1.7rem;
-            margin-bottom: -20px;
-        }
-        .container .row .img img{
-            margin-bottom: 20px;
-        }
-        .price{
-            margin-top: 50px;
-        }
-        .link{
-            
-            width: 70%;
-            height:35px;
-            margin: 60px;
-            border-radius: 25px;
-        
-             }
-             .link a{
-                 margin-left:33%;
-                
-                 font-size: 30px;
-             }
-             .harara img{
-                width: 27rem;
-                height: 25rem;
-                margin: 20px;
-            }
+     }
+     form h3{
+         margin-left: 100px;
+     }
+    
+     form .gester{
+        margin-left: 2rem;
+         border: 2px solid rgb(85, 73, 73);
+     }
+     .tabeb{
+margin-left: 15%;
+     }
             .tabeb img{
-                width: 27rem;
+                width: 20rem;
                 height: 20rem;
                 margin: 10px;
+            }
+            .tabeb .row p{
+                width: 25rem;
             }
             .eltabeb{
                 padding:40px;
@@ -728,7 +837,7 @@ text-align: center;
             .mo select{
                 width: 35px;
                
-                margin-left:10rem;
+                margin-left:12rem;
             }
             
             .mo label{
@@ -744,10 +853,11 @@ text-align: center;
                 text-align: center;
               
             }
+           
             .attrbi .mamall{
-                width:20rem;
-                height: 290px;
-                margin-left: 3.7rem;
+                width: 20rem;
+                height: 120px;
+                margin-left: 32%;
             }
             .attrbi-text p{
               margin-left: 2.2rem;
@@ -786,7 +896,7 @@ text-align: center;
             }
             .eldoagen {
     
-               margin-left: 2.5rem;
+               margin-left: 4rem;
                    
                }
                .mo {
@@ -799,6 +909,141 @@ text-align: center;
                 text-align: center;
                 flex-wrap: wrap;
             }
+            .alaf h1{
+                font-size: 20px;
+            }
+            .taclfa{
+                padding: 2rem;
+            }
+           
+            .taclfa .selectal{
+              width: 16.3rem;
+                padding: 10px 70px;
+                margin-bottom: 10px;
+                margin: 1px;
+            }
+            .taclfa select option{
+                font-size: 10px;
+            }
+            .taclfa input{
+                width: 6.2rem;
+                margin: 1px;
+            }
+            .alaf .alaff{
+                width: 24rem;
+                height: 20rem;
+                margin: 40px;
+            }
+            .alaf .company{
+                padding: 10px  87px;
+                margin: 1px;
+            }
+            .alaf .rigester{
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+       .alaf h3{
+        text-align: right;
+        color: #ddd;
+       }
+       .alaf  label{
+      margin-left: 50%;
+      color: #ddd;
+       }
+       .container .col-3 img{
+        width: 270px;
+        height: 270px;
+        border: 5px dotted rgb(115, 182, 226);
+    
+    }
+    .col-3 h3{
+       
+width: 18rem;
+}
+.adoual {
+    padding: 2rem;
+  
+}
+.adoual select{
+    width: 17.5rem;
+   
+  
+}
+.adoual input{
+    width: 7rem;
+}
+.harara img{
+    width: 22rem;
+    height: 25rem;
+   
+}
+.harara-text {
+    margin: 50px;
+}
+.harara-text p{
+    font-weight: bold;
+    font-size: 17px;
+}
+.amala{
+    padding: 3rem;
+    }
+    .amala input{
+        margin-right:-1rem ;
+        padding: 10px 60px;
+        
+    }
+    .amala .check label{
+        max-width: 300px;
+        display: flex;
+        margin: .2rem;
+        color: white;
+    }
+    .amala label{
+        color: white;
+    }
+    .amala .label-text{
+        margin-right:-18px;
+    
+    }
+    .amala h3{
+        margin-right: 9rem;
+        color: white;
+    }
+    .amala .rigester{
+        margin: 2.2rem;
+        background-color: rgb(152, 186, 224);
+        border-radius: 25px;
+        font-size: 25px;
+   
+        cursor: pointer;
+    }
+    .mo {
+        padding: 70px;
+        
+    }
+    .mo select{
+        width: 16rem;
+        font-size: 25px;
+    }
+    .mo input{
+        padding: 10px 40px;
+    }
+    .mo label{
+        color: white;
+    }
+    .mo select option{
+        font-size: 15px;
+    }
+    .mo .rigester{
+    
+        margin: 20px;
+        background-color: blue;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 25px;
+    
+    }
+ 
 }
 @media (max-width:992px) {
     //start nafa
@@ -814,15 +1059,11 @@ text-align: center;
             width:10rem;
            
         }
-        .nafa2 {
-margin-left: 90rem;
-        }
+   
             
    
        
 }
 @media (max-width:1200px) {
-    .nafa2 {
-        margin-left: 90rem;
-                }
+   
 }

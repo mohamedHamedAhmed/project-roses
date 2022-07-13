@@ -11,7 +11,8 @@ img {
 
 .tacmen h1 {
   text-align: center;
-  margin: 10px; }
+  margin: 10px;
+  font-size: 15px; }
 
 .tacmen p {
   width: 80rem;
@@ -37,27 +38,36 @@ footer {
 
 @media (max-width: 767px) {
   img {
-    width: 28rem;
+    margin: 10px;
+    width: 24rem;
     height: 15rem;
+    text-align: center; }
+
+  .tacmen h1 {
     text-align: center;
-    margin-left: 18px; }
+    margin: 10px;
+    font-size: 20px;
+    max-width: 25rem; }
 
   .tacmen p {
-    width: 29rem;
+    width: 25rem;
     font-weight: bold;
-    font-size: 18px; }
+    font-size: 15px;
+    text-align: right; }
 
   .tacmen2 img {
-    width: 25rem;
-    height: 20rem;
+    width: 24rem;
+    height: 15rem;
     text-align: center;
-    margin-left: -12rem; }
+    margin-left: -280px; }
 
   .tacmen2 p {
-    margin-left: -5rem;
-    width: 26rem; }
+    text-align: right;
+    width: 20rem;
+    margin-left: -50px; }
 
   .tacmen2 h1 {
-    margin-left: -13rem; } }
+    margin-left: -240px;
+    font-size: 25px; } }
 
 /*# sourceMappingURL=tacmen.css.map */
