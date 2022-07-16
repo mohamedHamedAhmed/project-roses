@@ -38,7 +38,7 @@ form h1 {
 
 @media (max-width: 767px) {
   .event form {
-    margin-left: 9%;
+    margin-left: -2%;
     align-items: center;
     display: block; }
 

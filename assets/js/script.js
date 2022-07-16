@@ -4,10 +4,10 @@
 let mainul = document.getElementById('mainul');
 mainul.style.right = "-260px";
 function menu() {
-    if (mainul.style.right == "0px") {
+    if (mainul.style.right == "20px") {
         mainul.style.right = "-260px";
     } else {
-        mainul.style.right = "0px";
+        mainul.style.right = "20px";
     }
 }
 

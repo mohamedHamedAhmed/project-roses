@@ -138,6 +138,22 @@ body {
   color: #161314;
   cursor: pointer; }
 
+.last {
+  background: #5e8dcc;
+  padding: 50px; }
+
+.last .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.last .container .last-img img {
+  width: 400px;
+  height: 300px; }
+
+.last .container .paragraph {
+  width: 400px; }
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -237,18 +253,14 @@ form .sign a {
   object-fit: cover; }
 
 @media (max-width: 767px) {
-  body {
-    background-size: cover;
-    background-repeat: no-repeat; }
-
   .header .main-nav .main-ul {
     position: fixed;
     z-index: 2;
     top: 120px;
     background-color: #cabfbf;
     width: 50%;
-    right: -500px;
-    transition: right  1s;
+    right: -400px;
+    transition: right  2s;
     overflow: hidden; }
 
   .header .main-nav .main-ul li {
@@ -261,8 +273,7 @@ form .sign a {
     color: aliceblue;
     font-size: 25px;
     font-weight: bold;
-    text-align: right;
-    padding: 10px; }
+    text-align: right; }
 
   .main-nav .main-ul li:hover .movingto {
     margin-left: -13rem;
@@ -298,13 +309,13 @@ form .sign a {
     height: 365px; }
 
   .overlay form {
-    margin-left: 5rem;
+    margin-left: 2rem;
     align-items: center; }
 
   .overlay form input {
     display: block;
     align-items: center;
-    padding: 6px 3rem;
+    padding: 6px 1.5rem;
     margin: 15px auto; }
 
   form .sign h4 {
@@ -319,7 +330,25 @@ form .sign a {
 
   .overlay form .button {
     margin-top: 40px;
-    margin-left: 3rem; } }
+    padding: 6px 35px;
+    margin-left: 88px; }
+
+  .last .container {
+    justify-content: center; }
+
+  .last .container .last-img img {
+    width: 300px;
+    height: 300px; }
+
+  .last .container .paragraph {
+    width: 250px; }
+
+  .last .container .paragraph h1 {
+    font-size: 20px;
+    margin: 10px; }
+
+  .last .container .paragraph p {
+    font-size: 15px; } }
 .col-3 {
   flex-basis: 100%;
   padding: 10px;
@@ -428,29 +457,6 @@ body {
   border-radius: 50%;
   animation: spin 1.5s infinite linear; }
 
-.last {
-  background-color: cornsilk;
-  margin-bottom: -15px; }
-
-.last img {
-  width: 500px;
-  height: 400px;
-  margin-top: 20px; }
-
-.last .container .col-2 h1 {
-  width: 400px;
-  margin-left: -120px; }
-
-.last .container .col-2 p {
-  width: 400px;
-  margin-left: -120px; }
-
-.last .container {
-  max-width: 1000px;
-  margin: auto;
-  padding-left: 0px;
-  padding-right: 50px; }
-
 @keyframes spin {
   100% {
     transform: rotate(360deg); } }
@@ -464,7 +470,7 @@ body {
   .section1 {
     margin-top: 54rem;
     text-align: center;
-    margin-left: 5rem; }
+    margin-left: 2rem; }
 
   .section1 .col-3 img {
     width: 300px;
@@ -475,27 +481,8 @@ body {
     height: 10rem; }
 
   .offer video {
-    width: 410px;
-    height: 400px; }
-
-  .last {
-    margin-top: 1%; }
-
-  .last .container .row h1 {
-    width: 300px;
-    margin-top: 35rem;
-    text-align: center; }
-
-  .last .container .col-2 p {
-    width: 400px;
-    margin-left: -300px;
-    text-align: right; }
-
-  .last img {
-    width: 350px;
-    height: 300px;
-    margin-bottom: 70px;
-    margin-left: 70px; } }
+    width: 1500px;
+    height: 300px; } }
 @media (max-width: 992px) {
   .features .box img {
     width: 15rem;

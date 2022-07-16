@@ -124,35 +124,7 @@ left: 0;
     border-radius: 50%;
     animation: spin 1.5s infinite linear;
 }
-.last{
-    background-color: cornsilk;
-    margin-bottom: -15px;
-}
-.last img{
-    width: 500px;;
-    height: 400px;
-    margin-top: 20px;
-}
-.last .container .col-2 h1{
-    width: 400px;
-    margin-left:-120px;
-    
-    
 
-}
-.last .container .col-2 p{
-    width: 400px;
-    margin-left:-120px;
-    
-
-}
-
-.last .container {
-    max-width: 1000px;
-    margin: auto;
-    padding-left: 0px;
-    padding-right: 50px;
-}
 
 @keyframes spin{
   100%{
@@ -173,7 +145,7 @@ left: 0;
 .section1{
     margin-top: 54rem;
     text-align: center;
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 .section1 .col-3 img{
     width: 300px;
@@ -186,32 +158,12 @@ left: 0;
    
     }
     .offer video{
-        width: 410px;
-        height: 400px;
-    }
-
-    .last{
-        margin-top: 1%;
-    }
-    .last .container .row  h1{
-        width: 300px;
-    margin-top: 35rem;
-    text-align: center;
-
-        
-    }
-    .last .container .col-2 p{
-        width: 400px;
-        margin-left:-300px;
-        text-align: right;
-    
-    }
-    .last img{
-        width: 350px;
+        width: 1500px;
         height: 300px;
-    margin-bottom: 70px;
-    margin-left: 70px;
     }
+
+
+
    
 }
 

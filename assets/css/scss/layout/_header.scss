@@ -149,6 +149,23 @@ transition:2s;
     color: rgb(22, 19, 20);
     cursor: pointer;
 }
+.last {
+    background: rgb(94, 141, 204);
+    padding: 50px;
+}
+.last .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.last .container .last-img img{
+    width: 400px;
+    height: 300px;
+}
+.last .container .paragraph{
+width: 400px;
+}
+
 //overlay
 .overlay{
     width: 100%;
@@ -260,20 +277,15 @@ form .sign a{
     
   }
   @media (max-width: 767px) {
-    body{
-      
-     background-size:cover;
-        background-repeat: no-repeat;
-        
-    }
+  
     .header .main-nav .main-ul{
         position: fixed;
         z-index: 2;
         top: 120px;
         background-color: rgb(202, 191, 191);
         width: 50%;
-        right: -500px;
-        transition: right  1s;
+        right: -400px;
+        transition: right  2s;
         overflow: hidden;
     }
     .header .main-nav .main-ul li{
@@ -289,7 +301,6 @@ form .sign a{
         font-size: 25px;
         font-weight: bold;
     text-align: right;
-    padding: 10px;
     }
     .main-nav .main-ul li:hover .movingto{
         margin-left: -13rem;
@@ -329,7 +340,7 @@ form{
 }
 .overlay form{
    
-    margin-left: 5rem;
+    margin-left: 2rem;
     align-items: center;
   
 
@@ -337,7 +348,7 @@ form{
 .overlay form input{
     display: block;
     align-items: center;
-    padding: 6px 3rem;
+    padding: 6px 1.5rem;
     margin: 15px auto;
 }
 form .sign h4{
@@ -352,7 +363,27 @@ form .sign a{
 }
 .overlay form .button{
    margin-top: 40px;
-    margin-left: 3rem;
-  
+  padding: 6px 35px;
+  margin-left: 88px;
 }
+.last .container{
+   
+    justify-content: center;
+
+    
 }
+.last .container .last-img img{
+    width: 300px;
+    height: 300px;
+}
+.last .container .paragraph{
+width: 250px;
+}
+.last .container .paragraph h1{
+    font-size: 20px;
+margin: 10px;
+}
+.last .container .paragraph p{
+    font-size: 15px;
+}
+  }

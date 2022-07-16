@@ -661,9 +661,9 @@ margin-bottom: 10px;
         flex-wrap: wrap;
     }
     .eldoagen {
-        padding: 2rem;
+        padding: 1rem;
         width: 17rem;
-        margin-left: 10px;
+        
         
     }
     .eldoagen label{
@@ -689,7 +689,7 @@ margin-bottom: 10px;
        
       width: 22rem;
       height: 20rem; 
-      margin-left: 5rem;
+     margin-left: 20px;
       
       }
       .nafa .text-nafa p{
@@ -699,11 +699,13 @@ margin-bottom: 10px;
         
        
     }
-
+  .main{
+    margin-left: -6rem;
+  }
     .nafa2 .img  img{
         width: 20rem;
         height: 20rem;
- 
+
     }
     .elnafa{
         padding: 2rem;
@@ -741,22 +743,22 @@ margin-bottom: 10px;
       .water-img img{
         width: 370px;
         height: 400px;
-        margin: 50px;
+        margin: 5px;
     }
     .header h1{
 text-align: center;
 font-size: 20px;
      }
      .header .porsa{
-        width: 26rem;
+        width: 20rem;
         height:20rem;
     }
+
     .header img{
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    } 
-    
+        width: 150px;
+        height: 100px;
+        margin: 10px;
+        } 
     
      .link{
     background-color: #ddd;
@@ -764,7 +766,7 @@ font-size: 20px;
     height:35px;
     margin: 50px;
     border-radius: 25px;
-    margin-left: 7rem;
+    margin-left: 5rem;
     border: 10px solid rgb(33, 5, 109);
      }
      .link a{
@@ -777,8 +779,9 @@ font-size: 20px;
          padding: 50px;
      }
      form label{
-         margin-left: 20%;
+         margin-left: 15%;
          text-align: right;
+         color: rgb(255, 245, 245);
      }
      form input{
          padding: 10px  15px;
@@ -806,7 +809,7 @@ font-size: 20px;
          border: 2px solid rgb(85, 73, 73);
      }
      .tabeb{
-margin-left: 15%;
+margin-left: 1%;
      }
             .tabeb img{
                 width: 20rem;
@@ -829,7 +832,7 @@ margin-left: 15%;
                 margin-right: 60px;
             }
             .eltabeb select{
-                width: 18b rem;
+                width: 18rem;
             }
             .eltabeb option{
                 font-size: 25px;
@@ -839,7 +842,9 @@ margin-left: 15%;
                
                 margin-left:12rem;
             }
-            
+            .eltabeb .dynamic{
+                width: 16rem;
+            }
             .mo label{
               margin-top: 100rem;
             }
@@ -932,7 +937,7 @@ margin-left: 15%;
             .alaf .alaff{
                 width: 24rem;
                 height: 20rem;
-                margin: 40px;
+                margin: 10px;
             }
             .alaf .company{
                 padding: 10px  87px;
@@ -947,7 +952,7 @@ margin-left: 15%;
         color: #ddd;
        }
        .alaf  label{
-      margin-left: 50%;
+      margin-left: 45%;
       color: #ddd;
        }
        .container .col-3 img{

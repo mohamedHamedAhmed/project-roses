@@ -39,7 +39,7 @@ footer {
 @media (max-width: 767px) {
   img {
     margin: 10px;
-    width: 24rem;
+    width: 20rem;
     height: 15rem;
     text-align: center; }
 
@@ -50,7 +50,7 @@ footer {
     max-width: 25rem; }
 
   .tacmen p {
-    width: 25rem;
+    width: 20rem;
     font-weight: bold;
     font-size: 15px;
     text-align: right; }
@@ -59,11 +59,11 @@ footer {
     width: 24rem;
     height: 15rem;
     text-align: center;
-    margin-left: -280px; }
+    margin-left: -240px; }
 
   .tacmen2 p {
     text-align: right;
-    width: 20rem;
+    width: 18rem;
     margin-left: -50px; }
 
   .tacmen2 h1 {
